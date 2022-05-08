@@ -1,0 +1,6 @@
+00:00:00  The stages involve by SDLC are: 1)  <S>planning</S>, 2) design, 4) construction, 5) testing, and 6) deployment.
+00:00:05  The stages involve by SDLC are: 1) planning, 2) design, 4) construction, 5)  testing, and 6) deployment.
+00:00:10  The stages involve by SDLC are: 1)  planning, 2) design, 4) <S>construction</S>, 5) testing, and 6) deployment.
+00:00:15  The stages involve by SDLC are: 1)  planning, 2) <S>design</S>, 4) construction, 5) testing, and 6) deployment.
+00:00:20  The stages involve by SDLC are: 1)  planning, 2) design, 4) construction, 5) testing, and 6) deployment.
+00:01:15  The stages involve by SDLC are: 1)  <S>planning</S>, 2) design, 4) construction, 5) testing, and 6) deployment.
