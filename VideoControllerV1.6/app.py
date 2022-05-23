@@ -18,17 +18,12 @@ def selectVideo():
     if logined == False:
         number = flask.request.form["number"]
         logined = True
-        return flask.render_template("videoSelect.html", number=number)
+        return flask.render_template("runVideo.html", number=number)
     else:
-        return flask.render_template("videoSelect.html", number=number)
+        return flask.render_template("runVideo.html", number=number)
 
-@app.route('/selectvideo/videoRunner', methods=['POST'])
-def videoRunner():
-    """Video streaming home page."""
-    return flask.render_template('videoPlayer.html')
-
-@app.route('/selectvideo/videoRunner/video_feed')
-def video_feed():
+@app.route("/videorun", methods=['POST'])
+def videoRun():
     global number
-    #Video streaming route. Put this in the src attribute of an img tag
-    return flask.Response(main.start(number), mimetype='multipart/x-mixed-replace; boundary=frame')
+    main.start(number)
+    return flask.render_template("return.html")

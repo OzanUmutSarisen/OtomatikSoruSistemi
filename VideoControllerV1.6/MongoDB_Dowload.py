@@ -1,6 +1,6 @@
 import pymongo
 
-client = pymongo.MongoClient("mongodb+srv://natsu:1234@cluster0.idnat.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient(host="localhost", port=27017)
 
 def DowloadData(dataClient = "AudienceProvoker", dataBase = "Lessons", lesson="InToMachineLe", Video = "Video0"):#Upload edilmiş datayı alabilmek için
 

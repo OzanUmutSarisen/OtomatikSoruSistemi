@@ -1,8 +1,8 @@
-from MongoDB_Dowload import DowloadData
+import MongoDB_Dowload
 
 def StopTimeFinder():
 
-    data = DowloadData()
+    data = MongoDB_Dowload.DowloadData()()
 
     arrLineTimes = []#boş array soru olan linelardaki zaman için
     arrStops = []#boş array datadaki zamanı düzenleyip tutmak için
